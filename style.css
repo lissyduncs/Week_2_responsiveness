@@ -11,10 +11,16 @@ body {
 @media screen and (width > 600px) {
   body {
     background-color: palegreen;
+    font-family: "Roboto", sans-serif;
   }
   .column {
     float: left;
     width: 33.33%;
+  }
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
 
   /* Clear floats after the columns */
